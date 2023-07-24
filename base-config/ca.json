@@ -1,0 +1,6 @@
+{
+    "environment": [
+        "FABRIC_CA_HOME=/etc/hyperledger/fabric-ca-server",
+        "FABRIC_CA_SERVER_TLS_ENABLED=false"
+    ]
+}

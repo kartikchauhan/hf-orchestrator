@@ -1,0 +1,21 @@
+{
+    "environment": [
+        "ORDERER_GENERAL_LISTENADDRESS=0.0.0.0",
+        "ORDERER_GENERAL_GENESISMETHOD=file",
+        "ORDERER_GENERAL_GENESISFILE=/etc/hyperledger/configtx/genesis.block",
+        "ORDERER_GENERAL_LOCALMSPID=OrdererMSP",
+        "ORDERER_GENERAL_LOCALMSPDIR=/etc/hyperledger/msp/orderer/msp"
+    ],
+    "kafka": [
+        "ORDERER_KAFKA_RETRY_SHORTINTERVAL=1s",
+        "ORDERER_KAFKA_RETRY_SHORTTOTAL=30s",
+        "ORDERER_KAFKA_VERBOSE=true"
+    ],
+    "outdatedConfig": [
+        "ORDERER_GENERAL_TLS_ENABLED=false",
+        "ORDERER_GENERAL_TLS_PRIVATEKEY=/var/hyperledger/orderer/tls/server.key",
+        "ORDERER_GENERAL_TLS_CERTIFICATE=/var/hyperledger/orderer/tls/server.crt",
+        "ORDERER_GENERAL_TLS_ROOTCAS=[/var/hyperledger/orderer/tls/ca.crt]",
+        "CONFIGTX_ORDERER_ADDRESSES=[0.0.0.0:7050]"
+    ]
+}

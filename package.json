@@ -1,0 +1,31 @@
+{
+  "name": "hf-orchestrator",
+  "version": "1.0.0",
+  "description": "An orchestrator that creates Yaml files for Hyperledger Fabric network",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikchauhan/hf-orchestrator.git"
+  },
+  "keywords": [
+    "hyperledger-fabric",
+    "fabric",
+    "orchestrator",
+    "blockchain"
+  ],
+  "author": "Kartik Chauhan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kartikchauhan/hf-orchestrator/issues"
+  },
+  "homepage": "https://github.com/kartikchauhan/hf-orchestrator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "number-to-words": "^1.2.4"
+  }
+}
